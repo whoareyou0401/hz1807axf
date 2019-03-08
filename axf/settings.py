@@ -89,7 +89,7 @@ DATABASES = {
         'HOST':"127.0.0.1",
         'PORT':3306,
         'USER': "root",
-        'PASSWORD': os.environ.get("MYSQL_PWD")
+        'PASSWORD': "liuda6015?"
     }
 }
 
