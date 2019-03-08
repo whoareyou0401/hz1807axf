@@ -1,0 +1,196 @@
+/*
+    底部图标和文字
+*/
+footer .cart dd {
+    color: orange;
+}
+
+footer .cart span {
+    background: url(/static/img/cart_selected.png) no-repeat;
+    background-size: 0.513889rem;
+}
+
+/*
+    页面容器
+*/
+#order {
+    padding: 1.5rem 0;
+    z-index: +15;
+    width: 100%;
+    background: #fafafa;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    overflow: hidden;
+}
+
+h3 {
+    text-align: center;
+    position: fixed;
+    z-index: +100;
+    width: 100%;
+    border-bottom: 0.04rem solid lightgrey;
+    line-height: 1.5rem;
+    background: hotpink;
+    top: 0;
+    font-size: 15px;
+}
+
+
+
+/**************menu***************/
+.menuList {
+    border-bottom: 0.04rem solid lightgrey;
+    height: 2.5rem;
+    position: relative;
+}
+
+
+
+.menuList > a {
+    width: 84%;
+    display: inline-block;
+    font-size: 0.4rem;
+    line-height: 1rem;
+}
+
+.menuList > a > img {
+    margin-top: 0.25rem;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.menuList > a > p {
+    width: 75%;
+    height: 1rem;
+    float: right;
+    padding-left: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menuList > section {
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.4rem;
+    height: 0.75rem;
+    border-radius: 1rem;
+}
+
+.menuList > section > button {
+    background: white;
+    border: 1px solid orange;
+    border-radius: 1111px;
+    color: red;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.65rem;
+    font-weight: 900;
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.menuList > section > span {
+    display: inline-block;
+    width: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.4rem;
+}
+
+.presentPrice:before {
+    content: "¥";
+    font-size: 0.33rem;
+}
+
+.full > section {
+    background: lightpink;
+}
+
+.full > section > ul {
+    border: 0.2rem dashed lightgreen;
+    border-width: 0.1rem 0;
+    margin-bottom: 0.2rem;
+}
+
+.full > section > ul > li {
+    padding-left: 0.3rem;
+    line-height: 0.8rem;
+    font-size: 0.375rem;
+}
+
+.full > section > ul > li > div > p:last-child {
+    float: right;
+    width: 58%;
+    text-align: right;
+}
+
+.full > section > ul > li > div > p:last-child > span {
+    padding: 0.15rem;
+}
+/*
+    付款信息
+*/
+.payTheBill {
+    height: 1.5rem;
+    position: relative;
+}
+
+.payTheBill .all_select {
+    width: 10%;
+    padding-top: 0.5rem;
+    padding-left: 0.4rem;
+}
+
+.payTheBill > p {
+    line-height: 1.5rem;
+    text-indent: 0.3rem;
+}
+
+.payTheBill > p > span:first-child {
+    padding-right: 0.8rem;
+}
+
+.payTheBill > p > span:last-child {
+    padding-left: 0.3rem;
+    color: red;
+}
+
+.payTheBill > p > span:last-child:before {
+    content: "¥";
+    font-size: 0.35rem;
+}
+
+.payTheBill > span {
+    background: yellow;
+    position: absolute;
+    right: 0;
+    line-height: 1.5rem;
+    top: 0;
+    padding: 0 0.7rem;
+}
+.pay{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+}
+body{
+    width: 100%;
+}
+.contain{
+    width: 100%;
+    text-align: center;
+}
+.pay_msg{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    background: lightpink;
+}
+
